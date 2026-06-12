@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using LojaApi.Data;
 using LojaApi.Models;
 namespace LojaApi.Controllers;
-
+using Microsoft.AspNetCore.Authorization;
 
 [ApiController]
 [Route("api/[controller]")]
